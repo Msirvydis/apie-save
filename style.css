@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body {
+    background: wheat;
+    text-align: center;
+    
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Edu NSW ACT Foundation, cursive;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.heading {
+    font-family: Edu NSW ACT Foundation, cursive;
+    margin: 0;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.who {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.text {
+    font-family: Edu NSW ACT Foundation, cursive;
+}
+
+.description {
+    margin-top: 1em;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.second {
+    display: inline-block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    justify-content: center;
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+  }
+img {
+    width: 300px;
+    border-radius: 50%;
+
+}
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+Ul {
+    list-style-type: none;
+}
+
